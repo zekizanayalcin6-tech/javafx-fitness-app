@@ -1,0 +1,17 @@
+2025-05-24,Koşu,1 saat
+2025-05-24,Yoga,45 dk
+2025-05-23,Koşu,30 dk
+2025-05-25,Koşu,1 saat
+2025-05-25,Bisiklet,1 saat
+2025-05-25,Koşu,1 saat
+2025-05-25,Yoga,1 saat
+2025-05-25,Koşu,1 saat
+2025-05-25,HIIT,1 saat
+2025-05-25,Yoga,1 saat
+2025-05-26,Koşu,2 saat
+2025-05-26,Bisiklet,1 saat
+2025-05-26,Koşu,1.5 saat
+2025-05-26,Bisiklet,1 saat
+2025-05-26,Yoga,1 saat
+2025-05-26,Fitness,1 saat
+2025-05-26,HIIT,1 saat

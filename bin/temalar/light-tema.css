@@ -1,0 +1,114 @@
+/* Ana kök görünüm: arka plan ve yazı tipi */
+.root {
+    
+   -fx-font-family: "Segoe UI", sans-serif;
+   
+   
+}
+
+
+
+
+.egzersiz-ekle {
+     -fx-background-color: linear-gradient(to bottom, darkgreen, red);
+}
+
+
+.egzersiz-eklekart{
+
+
+-fx-background-color:  linear-gradient(to bottom, red, darkgreen);
+
+
+
+}
+
+
+.yemek-ekle {
+     -fx-background-color: linear-gradient(to bottom, purple, pink); /* Örnek degrade arka plan */
+    -fx-padding: 20px;
+}
+
+.rapor-goruntule{
+
+    -fx-background-color: linear-gradient(to bottom, purple, pink);
+    
+
+}
+
+.yemek-rapor{
+
+     -fx-background-color: linear-gradient(to bottom, purple, pink);
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Genel buton görünümü */
+.button {
+    -fx-background-color:green ; /* Açık gri zemin */
+    -fx-text-fill: white ;        /* Siyah yazı rengi */
+    -fx-font-weight: bold;         /* Kalın yazı */
+    -fx-background-radius: 8px;    /* Köşeleri yumuşat */
+    -fx-padding: 12px;              /* İç boşluk */
+    
+    -fx-border-color:white;
+    -fx-border-width:2px;
+    -fx-border-radius: 8px;
+    
+    
+ 
+}
+
+
+
+
+.button:hover{
+
+
+    -fx-background-color:#004c14;
+    -fx-cursor: hand;
+
+
+
+
+}
+
+
+
+
+
+
+
+/* Metin kutuları için görünüm (TextField, TextArea) */
+
+
+.text-field, .text-area {
+    -fx-background-color: darkgray;       /* ,kapalı gri zemin */
+    -fx-text-fill:darkblue;        /* Siyah yazı */
+    -fx-border-color: darkblue;     /* Açık gri kenarlık */
+    -fx-border-radius: 5px;        /* Köşeleri yumuşat */
+}
+
+
+/* Etiketlerin görünümü */
+.label {
+    -fx-text-fill:darkblue; /* Koyu gri yazı */
+    -fx-font-size: 15px;    /* Yazı boyutu */
+   
+}
+
+
+
+
+/* ScrollPane arka plan */
+.scroll-pane {
+    -fx-background-color:darkblue; /* Beyaz zemin */
+}

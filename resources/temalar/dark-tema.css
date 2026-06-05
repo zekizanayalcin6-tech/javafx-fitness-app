@@ -1,0 +1,101 @@
+/* Ana arka plan ve yazı tipi */
+.root {
+    /*-fx-background-color: #1e1e1e; /* Koyu gri/füme arka plan */
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+
+
+
+
+
+.egzersiz-ekle {
+    -fx-background-color: linear-gradient(to bottom, black, darkblue);
+}
+
+
+.egzersiz-eklekart{
+
+     -fx-background-color: linear-gradient(to bottom, darkblue, black);}
+
+
+
+
+
+
+.yemek-ekle {
+     -fx-background-color: linear-gradient(to bottom, black, purple); /* Örnek degrade arka plan */
+    -fx-padding: 20px;
+}
+
+.rapor-goruntule{
+
+    -fx-background-color: linear-gradient(to bottom, black, purple);
+    
+
+}
+
+.yemek-rapor{
+
+     -fx-background-color: linear-gradient(to bottom, black, purple);
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Tüm butonların görünümü */
+.button {
+    -fx-background-color: darkblue; /* Orta koyulukta buton rengi */
+    -fx-text-fill: white;        /* Beyaz yazı rengi */
+    -fx-font-weight: bold;         /* Kalın yazı */
+    -fx-background-radius: 8px;    /* Yumuşak köşeler */
+    -fx-padding: 12px;              /* İç boşluk */
+    -fx-border-color:white;
+    -fx-border-width:2px;
+    -fx-border-radius: 8px;
+}
+
+
+
+.button:hover{
+
+
+    -fx-background-color:#3b2699;
+    -fx-cursor: hand;
+
+
+
+
+}    
+
+
+
+
+
+
+/* Metin kutuları için (TextField, TextArea) */
+.text-field, .text-area {
+    -fx-background-color: pink; /* Koyu zemin */
+    -fx-text-fill: darkblue;        /* Beyaz yazı */
+    -fx-border-color: #555555;     /* Açık gri kenarlık */
+    -fx-border-radius: 5px;
+}
+
+/* Label bileşenleri */
+.label {
+    -fx-text-fill: white; /* Açık gri yazı rengi */
+    -fx-font-size: 15px;
+}
+
+/* ScrollPane arka planı */
+.scroll-pane {
+    -fx-background-color: transparent; /* Koyu zemin */
+}
+
